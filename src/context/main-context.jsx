@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React, { createContext, useContext, useEffect, useState } from 'react'
+import React, { createContext, useContext, useState } from 'react'
 
 const Main = createContext()
 
@@ -68,6 +68,13 @@ const MainContext = ({
         })
     }
 
+    // // берем период от и до
+    const getPeriod = (years) => years.map((element, index) => {
+        if (index === 0 || index === years.length - 1) {
+            return element;
+        }
+        return null;
+    }).filter(element => element !== null); // Фильтруем, чтобы удалить пустые значения
 
   return (
     <>
@@ -76,15 +83,16 @@ const MainContext = ({
             getAllPeople,
             people_data,
             // все жители
-            // Наибольшее количество жителей 
             findPopulationByYear,
-            // 
+            // Наибольшее количество жителей 
             findMaxPopulationObjects,
             // функция добавления жителя 
             addUser,
             name,setName,
             birthDate , setBirthDate,
-            deathDate , setDeathDate
+            deathDate , setDeathDate,
+            // берем переуд
+            getPeriod
 
         }}>
             {children}

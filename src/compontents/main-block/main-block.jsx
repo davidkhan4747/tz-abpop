@@ -1,7 +1,6 @@
 import React , {useEffect} from 'react'
 import { useMain } from '../../context/main-context'
 import './main-block.scss'
-import { type } from '@testing-library/user-event/dist/type'
 import AddUser from '../add-user/add-user'
 const MainBlock = () => {
     // импортируем context для удобной работы с state
@@ -16,18 +15,16 @@ const MainBlock = () => {
     const livers = main.findPopulationByYear(main.people_data )
     // получаем наибольшее количество людей в годах
     const mostYears  =  main.findMaxPopulationObjects(livers)
+    // берем период от и до
+    const period = main.getPeriod(mostYears)
   return (
     <>
         <div className="wrap">
             <h1>Наибольшее количество людей в годах :</h1>
             <div className='flex'>
-                {mostYears.map((item,idx)=>{
-                    return (
-                        <div key={idx}>
-                            <p className='years'>{item.year} году : {item.count} жило</p>
+                        <div >
+                            <p className='most'> по {period[0]?.year} - {period[1]?.year}  : {period[0]?.count} были в жизни</p>
                         </div>
-                    )
-                })}
             </div>
             <h2>Список всех Жителей</h2>
             {/* add user block   */}
