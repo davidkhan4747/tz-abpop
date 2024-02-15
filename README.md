@@ -1,5 +1,8 @@
 # Getting Started with Create React App
-### `npm server`
+
+### `npm install` 
+установка пакетов
+### `npm run server`
 для запуска json-server
 
 
