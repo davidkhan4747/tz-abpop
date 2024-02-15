@@ -1,0 +1,136 @@
+{
+  "people_data": [
+    {
+      "name": "Иван Иванов",
+      "birth_year": 1980,
+      "death_year": 2020,
+      "id": "dce4"
+    },
+    {
+      "name": "Мария Петрова",
+      "birth_year": 1975,
+      "death_year": "None",
+      "id": "bbd7"
+    },
+    {
+      "name": "Алексей Сидоров",
+      "birth_year": 1995,
+      "death_year": 2021,
+      "id": "a2f6"
+    },
+    {
+      "name": "Елена Козлова",
+      "birth_year": 1988,
+      "death_year": 2015,
+      "id": "e869"
+    },
+    {
+      "name": "Дмитрий Морозов",
+      "birth_year": 1970,
+      "death_year": "None",
+      "id": "8f9c"
+    },
+    {
+      "name": "Ольга Лебедева",
+      "birth_year": 2000,
+      "death_year": 2022,
+      "id": "7ca1"
+    },
+    {
+      "name": "Павел Смирнов",
+      "birth_year": 1992,
+      "death_year": 2020,
+      "id": "6dde"
+    },
+    {
+      "name": "Анастасия Иванова",
+      "birth_year": 1985,
+      "death_year": 2018,
+      "id": "8db7"
+    },
+    {
+      "name": "Сергей Петров",
+      "birth_year": 1982,
+      "death_year": "None",
+      "id": "ccef"
+    },
+    {
+      "name": "Анна Соколова",
+      "birth_year": 1990,
+      "death_year": 2021,
+      "id": "0fe2"
+    },
+    {
+      "name": "Александра Иванова",
+      "birth_year": 1998,
+      "death_year": "None",
+      "id": "73dc"
+    },
+    {
+      "name": "Петр Николаев",
+      "birth_year": 1978,
+      "death_year": "None",
+      "id": "2254"
+    },
+    {
+      "name": "Екатерина Смирнова",
+      "birth_year": 1993,
+      "death_year": "None",
+      "id": "f88a"
+    },
+    {
+      "name": "Игорь Кузнецов",
+      "birth_year": 1965,
+      "death_year": 2020,
+      "id": "763e"
+    },
+    {
+      "name": "Светлана Васильева",
+      "birth_year": 1987,
+      "death_year": "None",
+      "id": "ed71"
+    },
+    {
+      "name": "Артем Григорьев",
+      "birth_year": 1994,
+      "death_year": 2021,
+      "id": "8ffc"
+    },
+    {
+      "name": "Татьяна Новикова",
+      "birth_year": 1973,
+      "death_year": 2017,
+      "id": "d97b"
+    },
+    {
+      "name": "Максим Жуков",
+      "birth_year": 1989,
+      "death_year": "None",
+      "id": "7d27"
+    },
+    {
+      "name": "Олег Петухов",
+      "birth_year": 2002,
+      "death_year": "None",
+      "id": "b71e"
+    },
+    {
+      "name": "Людмила Соколова",
+      "birth_year": 1960,
+      "death_year": "None",
+      "id": "78ed"
+    },
+    {
+      "id": "9a10",
+      "name": "Tets",
+      "birth_year": "2004",
+      "death_year": "None"
+    },
+    {
+      "id": "87a3",
+      "name": "SS",
+      "birth_year": "1960",
+      "death_year": "1970"
+    }
+  ]
+}
